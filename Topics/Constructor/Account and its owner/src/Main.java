@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Account edward = new Account("123456",1000, new User("demo-user","Alexander","Schmidt"));
+        Account edward = new Account("123456", 1000, new User("demo-user", "Alexander", "Schmidt"));
         process(edward);
         // pass it into process method
     }
